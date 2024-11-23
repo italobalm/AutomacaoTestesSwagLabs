@@ -1,0 +1,2909 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Relatório de Todos os Testes</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">nov. 23, 2024 12:36:24 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('author-view')">
+<a id="nav-author" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-user"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Italo</a><a class="dropdown-item" href="#">Bernardo</a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">CarrinhoDeCompras</a><a class="dropdown-item" href="#">Checkout</a><a class="dropdown-item" href="#">Produtos</a><a class="dropdown-item" href="#">Ordenação</a><a class="dropdown-item" href="#">Login</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="23"
+          author="Bernardo"
+          tag="Produtos"
+          device="">
+          <div class="test-detail">
+            <p class="name">Validação dos Dados da Compra</p>
+            <p class="text-sm">
+              <span>12:36:24</span> / <span>00:00:04:147</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Validação dos Dados da Compra</h5>
+<span class='badge badge-success'>11.23.2024 12:36:24</span>
+<span class='badge badge-danger'>11.23.2024 12:36:28</span>
+<span class='badge badge-default'>00:00:04:147</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Bernardo</span>
+<span class="badge badge-pill badge-default">Produtos</span></div>
+<div class="m-t-10 m-l-5">Valida se os dados da compra são exibidos corretamente para confirmação.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:36:25</td>
+        <td>
+          Página de login acessada com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:36:27</td>
+        <td>
+          Login realizado com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:36:27</td>
+        <td>
+          Produto adicionado ao carrinho.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:36:27</td>
+        <td>
+          Carrinho acessado com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:36:27</td>
+        <td>
+          Página de checkout acessada com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:36:28</td>
+        <td>
+          Campos preenchidos corretamente.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:36:28</td>
+        <td>
+          Ação de continuar realizada com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:36:28</td>
+        <td>
+          Dados da compra exibidos corretamente para confirmação.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author="Italo"
+          tag="CarrinhoDeCompras"
+          device="">
+          <div class="test-detail">
+            <p class="name">Atualizar quantidade de itens no carrinho</p>
+            <p class="text-sm">
+              <span>12:36:28</span> / <span>00:00:07:949</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Atualizar quantidade de itens no carrinho</h5>
+<span class='badge badge-success'>11.23.2024 12:36:28</span>
+<span class='badge badge-danger'>11.23.2024 12:36:36</span>
+<span class='badge badge-default'>00:00:07:949</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Italo</span>
+<span class="badge badge-pill badge-default">CarrinhoDeCompras</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:36:34</td>
+        <td>
+          O carrinho foi atualizado corretamente com 1 item.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:36:36</td>
+        <td>
+          O carrinho foi atualizado corretamente com 2 itens.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="25"
+          author="Italo"
+          tag="Ordenação"
+          device="">
+          <div class="test-detail">
+            <p class="name">Filtrar produtos por preço mais baixo</p>
+            <p class="text-sm">
+              <span>12:36:37</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Filtrar produtos por preço mais baixo</h5>
+<span class='badge badge-success'>11.23.2024 12:36:37</span>
+<span class='badge badge-danger'>11.23.2024 12:36:37</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Italo</span>
+<span class="badge badge-pill badge-default">Ordenação</span></div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="26"
+          author="Bernardo"
+          tag="Checkout"
+          device="">
+          <div class="test-detail">
+            <p class="name">Validar a quantidade de caracteres no campo 'Último Nome'</p>
+            <p class="text-sm">
+              <span>12:36:41</span> / <span>00:00:05:491</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Validar a quantidade de caracteres no campo 'Último Nome'</h5>
+<span class='badge badge-success'>11.23.2024 12:36:41</span>
+<span class='badge badge-danger'>11.23.2024 12:36:47</span>
+<span class='badge badge-default'>00:00:05:491</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Bernardo</span>
+<span class="badge badge-pill badge-default">Checkout</span></div>
+<div class="m-t-10 m-l-5">Preenche o campo 'Último Nome' com mais de 250 caracteres e valida se é permitido.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:36:44</td>
+        <td>
+          Acesse a página de login com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:36:45</td>
+        <td>
+          Login com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:36:45</td>
+        <td>
+          Item adicionado ao carrinho.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:36:45</td>
+        <td>
+          Carrinho acessado com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:36:45</td>
+        <td>
+          Página de checkout acessada com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:36:47</td>
+        <td>
+          Campos 'Primeiro Nome', 'Último Nome' e 'Código Postal' preenchidos.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:36:47</td>
+        <td>
+          Tentativa de continuar com nome de mais de 250 caracteres.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:36:47</td>
+        <td>
+          Falha no processo de verificação de quantidade de caracteres no último nome: no such element: Unable to locate element: {"method":"css selector","selector":".error-message-container"}
+  (Session info: chrome=131.0.6778.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2895c4d53dad4078a0becdcce259d8a, findElement {value=.error-message-container, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\italo\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53190/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2895c4d53dad4078a0becdcce259d8a
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="27"
+          author="Italo"
+          tag="Produtos"
+          device="">
+          <div class="test-detail">
+            <p class="name">Atualizar quantidade de item no carrinho a partir da tela de produtos</p>
+            <p class="text-sm">
+              <span>12:36:47</span> / <span>00:00:03:935</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Atualizar quantidade de item no carrinho a partir da tela de produtos</h5>
+<span class='badge badge-success'>11.23.2024 12:36:47</span>
+<span class='badge badge-danger'>11.23.2024 12:36:51</span>
+<span class='badge badge-default'>00:00:03:935</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Italo</span>
+<span class="badge badge-pill badge-default">Produtos</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:36:51</td>
+        <td>
+          Ocorreu um erro: no such element: Unable to locate element: {"method":"css selector","selector":".cart_quantity_input"}
+  (Session info: chrome=131.0.6778.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [93558efce3a6ea0621547ccdc652cfbd, findElement {value=.cart_quantity_input, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\italo\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53216}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53216/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 93558efce3a6ea0621547ccdc652cfbd
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="28"
+          author=""
+          tag="Produtos"
+          device="">
+          <div class="test-detail">
+            <p class="name">Adicionar item ao carrinho a partir da tela de produtos</p>
+            <p class="text-sm">
+              <span>12:36:52</span> / <span>00:00:03:306</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Adicionar item ao carrinho a partir da tela de produtos</h5>
+<span class='badge badge-success'>11.23.2024 12:36:52</span>
+<span class='badge badge-danger'>11.23.2024 12:36:55</span>
+<span class='badge badge-default'>00:00:03:306</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Produtos</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:36:55</td>
+        <td>
+          Item adicionado ao carrinho com sucesso.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="29"
+          author="Italo"
+          tag="Checkout"
+          device="">
+          <div class="test-detail">
+            <p class="name">Validar limite de caracteres em CEP</p>
+            <p class="text-sm">
+              <span>12:36:56</span> / <span>00:00:08:925</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Validar limite de caracteres em CEP</h5>
+<span class='badge badge-success'>11.23.2024 12:36:56</span>
+<span class='badge badge-danger'>11.23.2024 12:37:05</span>
+<span class='badge badge-default'>00:00:08:925</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Italo</span>
+<span class="badge badge-pill badge-default">Checkout</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:37:05</td>
+        <td>
+          Mensagem de erro não encontrada após o tempo esperado.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="30"
+          author="Italo"
+          tag="Ordenação"
+          device="">
+          <div class="test-detail">
+            <p class="name">Filtrar produtos por preço mais alto</p>
+            <p class="text-sm">
+              <span>12:37:05</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Filtrar produtos por preço mais alto</h5>
+<span class='badge badge-success'>11.23.2024 12:37:05</span>
+<span class='badge badge-danger'>11.23.2024 12:37:05</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Italo</span>
+<span class="badge badge-pill badge-default">Ordenação</span></div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="31"
+          author="Italo"
+          tag="Ordenação"
+          device="">
+          <div class="test-detail">
+            <p class="name">Filtrar produtos por nome A-Z</p>
+            <p class="text-sm">
+              <span>12:37:09</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Filtrar produtos por nome A-Z</h5>
+<span class='badge badge-success'>11.23.2024 12:37:09</span>
+<span class='badge badge-danger'>11.23.2024 12:37:09</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Italo</span>
+<span class="badge badge-pill badge-default">Ordenação</span></div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="32"
+          author="Italo"
+          tag="Login"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verificar funcionalidade de recuperação de senha</p>
+            <p class="text-sm">
+              <span>12:37:13</span> / <span>00:00:02:429</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Verificar funcionalidade de recuperação de senha</h5>
+<span class='badge badge-success'>11.23.2024 12:37:13</span>
+<span class='badge badge-danger'>11.23.2024 12:37:15</span>
+<span class='badge badge-default'>00:00:02:429</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=32</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Italo</span>
+<span class="badge badge-pill badge-default">Login</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:37:15</td>
+        <td>
+          Ocorreu um erro durante o teste: no such element: Unable to locate element: {"method":"link text","selector":"Forgot your password?"}
+  (Session info: chrome=131.0.6778.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e6e94529615290ecbfb265b165b10940, findElement {value=Forgot your password?, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\italo\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53348}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53348/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e6e94529615290ecbfb265b165b10940
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:37:15</td>
+        <td>
+          Fechando o navegador.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="33"
+          author="Italo"
+          tag="Produtos"
+          device="">
+          <div class="test-detail">
+            <p class="name">Exibir lista de produtos após o login</p>
+            <p class="text-sm">
+              <span>12:37:16</span> / <span>00:00:03:476</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Exibir lista de produtos após o login</h5>
+<span class='badge badge-success'>11.23.2024 12:37:16</span>
+<span class='badge badge-danger'>11.23.2024 12:37:19</span>
+<span class='badge badge-default'>00:00:03:476</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=33</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Italo</span>
+<span class="badge badge-pill badge-default">Produtos</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:37:19</td>
+        <td>
+          A lista de produtos foi exibida com sucesso.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="34"
+          author="Bernardo"
+          tag="Produtos"
+          device="">
+          <div class="test-detail">
+            <p class="name">Validação dos Dados da Compra</p>
+            <p class="text-sm">
+              <span>12:37:20</span> / <span>00:00:00:001</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Validação dos Dados da Compra</h5>
+<span class='badge badge-success'>11.23.2024 12:37:20</span>
+<span class='badge badge-danger'>11.23.2024 12:37:20</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=34</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Bernardo</span>
+<span class="badge badge-pill badge-default">Produtos</span></div>
+<div class="m-t-10 m-l-5">Valida se os dados da compra são exibidos corretamente para confirmação.</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="35"
+          author="Italo"
+          tag="Login"
+          device="">
+          <div class="test-detail">
+            <p class="name">Testar login com credenciais inválidas</p>
+            <p class="text-sm">
+              <span>12:37:24</span> / <span>00:00:02:867</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Testar login com credenciais inválidas</h5>
+<span class='badge badge-success'>11.23.2024 12:37:24</span>
+<span class='badge badge-danger'>11.23.2024 12:37:27</span>
+<span class='badge badge-default'>00:00:02:867</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=35</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Italo</span>
+<span class="badge badge-pill badge-default">Login</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:37:26</td>
+        <td>
+          Abrindo o navegador e acessando o site Swag Labs.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:37:26</td>
+        <td>
+          Preenchendo credenciais inválidas.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:37:27</td>
+        <td>
+          Clicando no botão de login.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:37:27</td>
+        <td>
+          Aguardando a mensagem de erro aparecer.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:37:27</td>
+        <td>
+          A mensagem de erro foi exibida corretamente.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:37:27</td>
+        <td>
+          Fechando o navegador.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="36"
+          author="Bernardo"
+          tag="Login"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verificar acesso à página de itens sem login</p>
+            <p class="text-sm">
+              <span>12:37:27</span> / <span>00:00:02:940</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verificar acesso à página de itens sem login</h5>
+<span class='badge badge-success'>11.23.2024 12:37:27</span>
+<span class='badge badge-danger'>11.23.2024 12:37:30</span>
+<span class='badge badge-default'>00:00:02:940</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=36</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Bernardo</span>
+<span class="badge badge-pill badge-default">Login</span></div>
+<div class="m-t-10 m-l-5">Tenta acessar a página de itens sem estar logado e verifica se é redirecionado ao login.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:37:29</td>
+        <td>
+          Tentativa de acessar a página de itens sem login.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:37:30</td>
+        <td>
+          Usuário redirecionado corretamente para a página de login.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:37:30</td>
+        <td>
+          Mensagem de erro exibida corretamente: 'Você precisa estar logado para acessar os itens.'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:37:30</td>
+        <td>
+          Navegador fechado.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="37"
+          author="Bernardo"
+          tag="Checkout"
+          device="">
+          <div class="test-detail">
+            <p class="name">Preencher dados para verificação de identidade na compra</p>
+            <p class="text-sm">
+              <span>12:37:30</span> / <span>00:00:03:610</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Preencher dados para verificação de identidade na compra</h5>
+<span class='badge badge-success'>11.23.2024 12:37:30</span>
+<span class='badge badge-danger'>11.23.2024 12:37:34</span>
+<span class='badge badge-default'>00:00:03:610</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=37</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Bernardo</span>
+<span class="badge badge-pill badge-default">Checkout</span></div>
+<div class="m-t-10 m-l-5">Preenche os dados de identidade e verifica a segurança na compra.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:37:33</td>
+        <td>
+          Acesse a página de login com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:37:33</td>
+        <td>
+          Login com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:37:33</td>
+        <td>
+          Item adicionado ao carrinho.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:37:33</td>
+        <td>
+          Carrinho acessado com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:37:34</td>
+        <td>
+          Página de checkout acessada.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:37:34</td>
+        <td>
+          Dados de identidade preenchidos.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:37:34</td>
+        <td>
+          Compra confirmada com sucesso.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="38"
+          author="Italo"
+          tag="CarrinhoDeCompras"
+          device="">
+          <div class="test-detail">
+            <p class="name">Impedir prosseguimento para checkout com carrinho vazio</p>
+            <p class="text-sm">
+              <span>12:37:35</span> / <span>00:00:02:833</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Impedir prosseguimento para checkout com carrinho vazio</h5>
+<span class='badge badge-success'>11.23.2024 12:37:35</span>
+<span class='badge badge-danger'>11.23.2024 12:37:37</span>
+<span class='badge badge-default'>00:00:02:833</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=38</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Italo</span>
+<span class="badge badge-pill badge-default">CarrinhoDeCompras</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:37:37</td>
+        <td>
+          Usuário consegue clicar em checkout mesmo sem produtos no carrinho
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:37:37</td>
+        <td>
+          Teste concluído com sucesso!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="39"
+          author="Italo"
+          tag="Ordenação"
+          device="">
+          <div class="test-detail">
+            <p class="name">Filtrar produtos por nome Z-A</p>
+            <p class="text-sm">
+              <span>12:37:38</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Filtrar produtos por nome Z-A</h5>
+<span class='badge badge-success'>11.23.2024 12:37:38</span>
+<span class='badge badge-danger'>11.23.2024 12:37:38</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=39</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Italo</span>
+<span class="badge badge-pill badge-default">Ordenação</span></div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="40"
+          author="Italo"
+          tag="Login"
+          device="">
+          <div class="test-detail">
+            <p class="name">Testar login com usuário bloqueado</p>
+            <p class="text-sm">
+              <span>12:37:42</span> / <span>00:00:02:871</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Testar login com usuário bloqueado</h5>
+<span class='badge badge-success'>11.23.2024 12:37:42</span>
+<span class='badge badge-danger'>11.23.2024 12:37:45</span>
+<span class='badge badge-default'>00:00:02:871</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=40</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Italo</span>
+<span class="badge badge-pill badge-default">Login</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:37:44</td>
+        <td>
+          Abrindo o navegador e acessando o site Swag Labs.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:37:44</td>
+        <td>
+          Preenchendo as credenciais do usuário bloqueado.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:37:45</td>
+        <td>
+          Clicando no botão de login.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:37:45</td>
+        <td>
+          Aguardando a mensagem de erro aparecer.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:37:45</td>
+        <td>
+          A mensagem de erro foi exibida corretamente.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:37:45</td>
+        <td>
+          Fechando o navegador.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="41"
+          author="Italo"
+          tag="Produtos"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verificar redirecionamento para página de detalhes ao clicar em um produto</p>
+            <p class="text-sm">
+              <span>12:37:45</span> / <span>00:00:03:366</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verificar redirecionamento para página de detalhes ao clicar em um produto</h5>
+<span class='badge badge-success'>11.23.2024 12:37:45</span>
+<span class='badge badge-danger'>11.23.2024 12:37:49</span>
+<span class='badge badge-default'>00:00:03:366</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=41</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Italo</span>
+<span class="badge badge-pill badge-default">Produtos</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:37:49</td>
+        <td>
+          Redirecionamento para página de detalhes bem-sucedido.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="42"
+          author="Italo"
+          tag="Produtos"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verificar se os produtos possuem descrição</p>
+            <p class="text-sm">
+              <span>12:37:49</span> / <span>00:00:02:914</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verificar se os produtos possuem descrição</h5>
+<span class='badge badge-success'>11.23.2024 12:37:49</span>
+<span class='badge badge-danger'>11.23.2024 12:37:52</span>
+<span class='badge badge-default'>00:00:02:914</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=42</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Italo</span>
+<span class="badge badge-pill badge-default">Produtos</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:37:52</td>
+        <td>
+          Todos os produtos possuem descrição.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="43"
+          author="Bernardo"
+          tag="Checkout"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verificar o preenchimento do campo 'Último Nome'</p>
+            <p class="text-sm">
+              <span>12:37:53</span> / <span>00:00:03:522</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verificar o preenchimento do campo 'Último Nome'</h5>
+<span class='badge badge-success'>11.23.2024 12:37:53</span>
+<span class='badge badge-danger'>11.23.2024 12:37:56</span>
+<span class='badge badge-default'>00:00:03:522</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=43</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Bernardo</span>
+<span class="badge badge-pill badge-default">Checkout</span></div>
+<div class="m-t-10 m-l-5">Verifica se o usuário é impedido de continuar caso o campo 'Último Nome' esteja em branco.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:37:54</td>
+        <td>
+          Acesse a página de login com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:37:55</td>
+        <td>
+          Login com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:37:56</td>
+        <td>
+          Item adicionado ao carrinho.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:37:56</td>
+        <td>
+          Carrinho acessado com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:37:56</td>
+        <td>
+          Página de checkout acessada com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:37:56</td>
+        <td>
+          Campos 'Primeiro Nome' e 'Código Postal' preenchidos, 'Último Nome' deixado em branco.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:37:56</td>
+        <td>
+          Tentativa de continuar com o 'Último Nome' em branco.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:37:56</td>
+        <td>
+          Erro: O campo 'Último Nome' não aceitou ficar em branco, como esperado.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="44"
+          author="Italo"
+          tag="CarrinhoDeCompras"
+          device="">
+          <div class="test-detail">
+            <p class="name">Remover produto do carrinho na tela do carrinho</p>
+            <p class="text-sm">
+              <span>12:37:57</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Remover produto do carrinho na tela do carrinho</h5>
+<span class='badge badge-success'>11.23.2024 12:37:57</span>
+<span class='badge badge-danger'>11.23.2024 12:37:57</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=44</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Italo</span>
+<span class="badge badge-pill badge-default">CarrinhoDeCompras</span></div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="45"
+          author="Italo"
+          tag="Checkout"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verificar não preenchimento do campo CEP</p>
+            <p class="text-sm">
+              <span>12:38:01</span> / <span>00:00:03:573</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verificar não preenchimento do campo CEP</h5>
+<span class='badge badge-success'>11.23.2024 12:38:01</span>
+<span class='badge badge-danger'>11.23.2024 12:38:04</span>
+<span class='badge badge-default'>00:00:03:573</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=45</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Italo</span>
+<span class="badge badge-pill badge-default">Checkout</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:04</td>
+        <td>
+          Usuário impedido de seguir com mensagem de erro.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="46"
+          author="Italo"
+          tag="CarrinhoDeCompras"
+          device="">
+          <div class="test-detail">
+            <p class="name">Adicionar produto no carrinho pela tela de detalhes</p>
+            <p class="text-sm">
+              <span>12:38:05</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Adicionar produto no carrinho pela tela de detalhes</h5>
+<span class='badge badge-success'>11.23.2024 12:38:05</span>
+<span class='badge badge-danger'>11.23.2024 12:38:05</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=46</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Italo</span>
+<span class="badge badge-pill badge-default">CarrinhoDeCompras</span></div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="47"
+          author="Bernardo"
+          tag="Checkout"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verificar preenchimento de todos os campos e continuar para visão geral</p>
+            <p class="text-sm">
+              <span>12:38:12</span> / <span>00:00:04:571</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verificar preenchimento de todos os campos e continuar para visão geral</h5>
+<span class='badge badge-success'>11.23.2024 12:38:12</span>
+<span class='badge badge-danger'>11.23.2024 12:38:16</span>
+<span class='badge badge-default'>00:00:04:571</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=47</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Bernardo</span>
+<span class="badge badge-pill badge-default">Checkout</span></div>
+<div class="m-t-10 m-l-5">Este teste valida se o sistema permite avançar para a próxima página ao preencher todos os campos obrigatórios.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:38:15</td>
+        <td>
+          Página de login acessada.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:15</td>
+        <td>
+          Login realizado com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:15</td>
+        <td>
+          Item adicionado ao carrinho.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:16</td>
+        <td>
+          Carrinho acessado.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:16</td>
+        <td>
+          Página de checkout acessada.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:16</td>
+        <td>
+          Campos preenchidos corretamente.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:38:16</td>
+        <td>
+          Tentativa de continuar com todos os campos preenchidos.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:16</td>
+        <td>
+          Página de visão geral da finalização de compra exibida corretamente.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="48"
+          author="Italo"
+          tag="Checkout"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verificar a Tipagem de caracteres no campo CEP</p>
+            <p class="text-sm">
+              <span>12:38:17</span> / <span>00:00:10:508</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Verificar a Tipagem de caracteres no campo CEP</h5>
+<span class='badge badge-success'>11.23.2024 12:38:17</span>
+<span class='badge badge-danger'>11.23.2024 12:38:27</span>
+<span class='badge badge-default'>00:00:10:508</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=48</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Italo</span>
+<span class="badge badge-pill badge-default">Checkout</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:38:27</td>
+        <td>
+          Mensagem de erro não encontrada após o tempo esperado.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="49"
+          author="Bernardo"
+          tag="Checkout"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verificar o preenchimento do campo 'Primeiro Nome'</p>
+            <p class="text-sm">
+              <span>12:38:28</span> / <span>00:00:04:132</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verificar o preenchimento do campo 'Primeiro Nome'</h5>
+<span class='badge badge-success'>11.23.2024 12:38:28</span>
+<span class='badge badge-danger'>11.23.2024 12:38:32</span>
+<span class='badge badge-default'>00:00:04:132</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=49</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Bernardo</span>
+<span class="badge badge-pill badge-default">Checkout</span></div>
+<div class="m-t-10 m-l-5">Verifica se o sistema impede o usuário de continuar caso o campo 'Primeiro Nome' esteja vazio.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:30</td>
+        <td>
+          Acesse a página de login com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:31</td>
+        <td>
+          Login com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:31</td>
+        <td>
+          Item adicionado ao carrinho.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:31</td>
+        <td>
+          Carrinho acessado com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:31</td>
+        <td>
+          Página de checkout acessada com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:32</td>
+        <td>
+          Campos 'Sobrenome' e 'Código Postal' preenchidos, 'Primeiro Nome' deixado em branco.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:32</td>
+        <td>
+          Tentativa de continuar com o 'Primeiro Nome' em branco.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:32</td>
+        <td>
+          Erro: O campo 'Primeiro Nome' não aceitou ficar em branco, como esperado.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="50"
+          author="Italo"
+          tag="Produtos"
+          device="">
+          <div class="test-detail">
+            <p class="name">Remover item do carrinho a partir da tela de produtos</p>
+            <p class="text-sm">
+              <span>12:38:32</span> / <span>00:00:03:374</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Remover item do carrinho a partir da tela de produtos</h5>
+<span class='badge badge-success'>11.23.2024 12:38:32</span>
+<span class='badge badge-danger'>11.23.2024 12:38:36</span>
+<span class='badge badge-default'>00:00:03:374</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=50</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Italo</span>
+<span class="badge badge-pill badge-default">Produtos</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:36</td>
+        <td>
+          Item removido do carrinho com sucesso.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="51"
+          author="Italo"
+          tag="CarrinhoDeCompras"
+          device="">
+          <div class="test-detail">
+            <p class="name">Adicionar produto diretamente da tela do carrinho</p>
+            <p class="text-sm">
+              <span>12:38:36</span> / <span>00:00:03:586</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Adicionar produto diretamente da tela do carrinho</h5>
+<span class='badge badge-success'>11.23.2024 12:38:36</span>
+<span class='badge badge-danger'>11.23.2024 12:38:40</span>
+<span class='badge badge-default'>00:00:03:586</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=51</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Italo</span>
+<span class="badge badge-pill badge-default">CarrinhoDeCompras</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:38:40</td>
+        <td>
+          Ocorreu um erro durante o teste: no such element: Unable to locate element: {"method":"css selector","selector":"#add\-to\-cart"}
+  (Session info: chrome=131.0.6778.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e548d18228392a0f8a14e64770969ccd, findElement {value=add-to-cart, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\italo\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53846/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e548d18228392a0f8a14e64770969ccd
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="52"
+          author="Bernardo"
+          tag="Checkout"
+          device="">
+          <div class="test-detail">
+            <p class="name">Validar a quantidade de caracteres no campo 'Primeiro Nome'</p>
+            <p class="text-sm">
+              <span>12:38:41</span> / <span>00:00:05:003</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Validar a quantidade de caracteres no campo 'Primeiro Nome'</h5>
+<span class='badge badge-success'>11.23.2024 12:38:41</span>
+<span class='badge badge-danger'>11.23.2024 12:38:46</span>
+<span class='badge badge-default'>00:00:05:003</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=52</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Bernardo</span>
+<span class="badge badge-pill badge-default">Checkout</span></div>
+<div class="m-t-10 m-l-5">Preenche o campo 'Primeiro Nome' com mais de 150 caracteres e valida se é permitido.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:44</td>
+        <td>
+          Acesse a página de login com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:44</td>
+        <td>
+          Login com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:44</td>
+        <td>
+          Item adicionado ao carrinho.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:45</td>
+        <td>
+          Carrinho acessado com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:45</td>
+        <td>
+          Página de checkout acessada com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:45</td>
+        <td>
+          Campos 'Primeiro Nome', 'Sobrenome' e 'Código Postal' preenchidos.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:46</td>
+        <td>
+          Tentativa de continuar com nome de mais de 150 caracteres.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:38:46</td>
+        <td>
+          Falha no processo de verificação de quantidade de caracteres no primeiro nome: no such element: Unable to locate element: {"method":"css selector","selector":".error-message-container"}
+  (Session info: chrome=131.0.6778.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [48d617e5fe18094909c7c71981276ca0, findElement {value=.error-message-container, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\italo\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53870}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53870/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 48d617e5fe18094909c7c71981276ca0
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="53"
+          author="Italo"
+          tag="Produtos"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verificar mensagem de erro ao adicionar produto não disponível</p>
+            <p class="text-sm">
+              <span>12:38:46</span> / <span>00:00:19:888</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Verificar mensagem de erro ao adicionar produto não disponível</h5>
+<span class='badge badge-success'>11.23.2024 12:38:46</span>
+<span class='badge badge-danger'>11.23.2024 12:39:06</span>
+<span class='badge badge-default'>00:00:19:888</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=53</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Italo</span>
+<span class="badge badge-pill badge-default">Produtos</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:50</td>
+        <td>
+          Produto add-to-cart-sauce-labs-backpack adicionado ao carrinho com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:38:50</td>
+        <td>
+          Produto add-to-cart-sauce-labs-bike-light adicionado ao carrinho com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:38:50</td>
+        <td>
+          Botão desabilitado encontrado: add-to-cart-sauce-labs-bolt-t-shirt
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:38:55</td>
+        <td>
+          Erro não exibido após tentativa de adicionar produto desabilitado.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:38:55</td>
+        <td>
+          Botão desabilitado encontrado: add-to-cart-sauce-labs-fleece-jacket
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:39:01</td>
+        <td>
+          Erro não exibido após tentativa de adicionar produto desabilitado.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:39:01</td>
+        <td>
+          Produto add-to-cart-sauce-labs-onesie adicionado ao carrinho com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:39:01</td>
+        <td>
+          Botão desabilitado encontrado: add-to-cart-test.allthethings()-t-shirt-(red)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:39:06</td>
+        <td>
+          Erro não exibido após tentativa de adicionar produto desabilitado.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="54"
+          author="Bernardo"
+          tag="Checkout"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verificar redirecionamento com todos os campos em branco</p>
+            <p class="text-sm">
+              <span>12:39:07</span> / <span>00:00:04:073</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verificar redirecionamento com todos os campos em branco</h5>
+<span class='badge badge-success'>11.23.2024 12:39:07</span>
+<span class='badge badge-danger'>11.23.2024 12:39:11</span>
+<span class='badge badge-default'>00:00:04:073</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=54</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Bernardo</span>
+<span class="badge badge-pill badge-default">Checkout</span></div>
+<div class="m-t-10 m-l-5">Verifica se o sistema exibe uma mensagem de erro ao tentar avançar com todos os campos em branco.</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:39:09</td>
+        <td>
+          Acesse a página de login com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:39:10</td>
+        <td>
+          Login com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:39:10</td>
+        <td>
+          Item adicionado ao carrinho.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:39:10</td>
+        <td>
+          Carrinho acessado com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:39:10</td>
+        <td>
+          Página de checkout acessada com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:39:10</td>
+        <td>
+          Todos os campos deixados em branco.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:39:11</td>
+        <td>
+          Tentativa de continuar com todos os campos em branco.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:39:11</td>
+        <td>
+          Mensagem de erro exibida corretamente: 'First Name is required'.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="55"
+          author="Italo"
+          tag="Login"
+          device="">
+          <div class="test-detail">
+            <p class="name">Testar login com credenciais válidas</p>
+            <p class="text-sm">
+              <span>12:39:11</span> / <span>00:00:02:944</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Testar login com credenciais válidas</h5>
+<span class='badge badge-success'>11.23.2024 12:39:11</span>
+<span class='badge badge-danger'>11.23.2024 12:39:14</span>
+<span class='badge badge-default'>00:00:02:944</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=55</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Italo</span>
+<span class="badge badge-pill badge-default">Login</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:39:13</td>
+        <td>
+          Abrindo o navegador e acessando o site Swag Labs.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:39:14</td>
+        <td>
+          Preenchendo as credenciais de login.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:39:14</td>
+        <td>
+          Clicando no botão de login.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:39:14</td>
+        <td>
+          Verificando se o redirecionamento ocorreu com sucesso.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:39:14</td>
+        <td>
+          O redirecionamento para a página inicial foi bem-sucedido.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:39:14</td>
+        <td>
+          Fechando o navegador.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">5</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">CarrinhoDeCompras</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>CarrinhoDeCompras</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:36:28 PM</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>Atualizar quantidade de itens no carrinho</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:37:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='38' id='38'>Impedir prosseguimento para checkout com carrinho vazio</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='44' id='44'>Remover produto do carrinho na tela do carrinho</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:38:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='46' id='46'>Adicionar produto no carrinho pela tela de detalhes</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:38:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='51' id='51'>Adicionar produto diretamente da tela do carrinho</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+<span class='badge log badge-danger'>4</span>
+</span>
+<p class="name">Checkout</p>
+<p class="duration text-sm">10 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Checkout</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:36:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='26' id='26'>Validar a quantidade de caracteres no campo 'Último Nome'</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:36:56 PM</td>
+<td>
+<a href="#" class="linked" test-id='29' id='29'>Validar limite de caracteres em CEP</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='37' id='37'>Preencher dados para verificação de identidade na compra</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:53 PM</td>
+<td>
+<a href="#" class="linked" test-id='43' id='43'>Verificar o preenchimento do campo 'Último Nome'</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:38:01 PM</td>
+<td>
+<a href="#" class="linked" test-id='45' id='45'>Verificar não preenchimento do campo CEP</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:38:12 PM</td>
+<td>
+<a href="#" class="linked" test-id='47' id='47'>Verificar preenchimento de todos os campos e continuar para visão geral</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:38:17 PM</td>
+<td>
+<a href="#" class="linked" test-id='48' id='48'>Verificar a Tipagem de caracteres no campo CEP</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:38:28 PM</td>
+<td>
+<a href="#" class="linked" test-id='49' id='49'>Verificar o preenchimento do campo 'Primeiro Nome'</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:38:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='52' id='52'>Validar a quantidade de caracteres no campo 'Primeiro Nome'</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:39:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='54' id='54'>Verificar redirecionamento com todos os campos em branco</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>7</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">Produtos</p>
+<p class="duration text-sm">9 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Produtos</h4>
+<span status="pass" class='badge log pass-bg'>7 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:36:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>Validação dos Dados da Compra</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:36:47 PM</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>Atualizar quantidade de item no carrinho a partir da tela de produtos</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:36:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>Adicionar item ao carrinho a partir da tela de produtos</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='33' id='33'>Exibir lista de produtos após o login</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='34'>Validação dos Dados da Compra</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:45 PM</td>
+<td>
+<a href="#" class="linked" test-id='41' id='41'>Verificar redirecionamento para página de detalhes ao clicar em um produto</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:49 PM</td>
+<td>
+<a href="#" class="linked" test-id='42' id='42'>Verificar se os produtos possuem descrição</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:38:32 PM</td>
+<td>
+<a href="#" class="linked" test-id='50' id='50'>Remover item do carrinho a partir da tela de produtos</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:38:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='53'>Verificar mensagem de erro ao adicionar produto não disponível</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+</span>
+<p class="name">Ordenação</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Ordenação</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:36:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>Filtrar produtos por preço mais baixo</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='30' id='30'>Filtrar produtos por preço mais alto</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:09 PM</td>
+<td>
+<a href="#" class="linked" test-id='31' id='31'>Filtrar produtos por nome A-Z</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='39' id='39'>Filtrar produtos por nome Z-A</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">Login</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Login</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:37:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='32' id='32'>Verificar funcionalidade de recuperação de senha</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='35' id='35'>Testar login com credenciais inválidas</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='36' id='36'>Verificar acesso à página de itens sem login</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:42 PM</td>
+<td>
+<a href="#" class="linked" test-id='40' id='40'>Testar login com usuário bloqueado</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:39:11 PM</td>
+<td>
+<a href="#" class="linked" test-id='55' id='55'>Testar login com credenciais válidas</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view author-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Author</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>15</span>
+<span class='badge log badge-danger'>7</span>
+</span>
+<p class="name">Italo</p>
+<p class="duration text-sm">22 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Italo</h4>
+<span status="pass" class='badge log pass-bg'>15 passed</span>
+<span status="fail" class='badge log badge-danger'>7 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:36:28 PM</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>Atualizar quantidade de itens no carrinho</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:36:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>Filtrar produtos por preço mais baixo</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:36:47 PM</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>Atualizar quantidade de item no carrinho a partir da tela de produtos</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:36:56 PM</td>
+<td>
+<a href="#" class="linked" test-id='29' id='29'>Validar limite de caracteres em CEP</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='30' id='30'>Filtrar produtos por preço mais alto</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:09 PM</td>
+<td>
+<a href="#" class="linked" test-id='31' id='31'>Filtrar produtos por nome A-Z</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:37:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='32' id='32'>Verificar funcionalidade de recuperação de senha</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='33' id='33'>Exibir lista de produtos após o login</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='35' id='35'>Testar login com credenciais inválidas</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:37:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='38' id='38'>Impedir prosseguimento para checkout com carrinho vazio</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='39' id='39'>Filtrar produtos por nome Z-A</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:42 PM</td>
+<td>
+<a href="#" class="linked" test-id='40' id='40'>Testar login com usuário bloqueado</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:45 PM</td>
+<td>
+<a href="#" class="linked" test-id='41' id='41'>Verificar redirecionamento para página de detalhes ao clicar em um produto</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:49 PM</td>
+<td>
+<a href="#" class="linked" test-id='42' id='42'>Verificar se os produtos possuem descrição</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='44' id='44'>Remover produto do carrinho na tela do carrinho</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:38:01 PM</td>
+<td>
+<a href="#" class="linked" test-id='45' id='45'>Verificar não preenchimento do campo CEP</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:38:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='46' id='46'>Adicionar produto no carrinho pela tela de detalhes</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:38:17 PM</td>
+<td>
+<a href="#" class="linked" test-id='48' id='48'>Verificar a Tipagem de caracteres no campo CEP</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:38:32 PM</td>
+<td>
+<a href="#" class="linked" test-id='50' id='50'>Remover item do carrinho a partir da tela de produtos</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:38:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='51' id='51'>Adicionar produto diretamente da tela do carrinho</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:38:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='53'>Verificar mensagem de erro ao adicionar produto não disponível</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:39:11 PM</td>
+<td>
+<a href="#" class="linked" test-id='55' id='55'>Testar login com credenciais válidas</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>8</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">Bernardo</p>
+<p class="duration text-sm">10 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Bernardo</h4>
+<span status="pass" class='badge log pass-bg'>8 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:36:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>Validação dos Dados da Compra</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:36:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='26' id='26'>Validar a quantidade de caracteres no campo 'Último Nome'</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='34'>Validação dos Dados da Compra</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='36' id='36'>Verificar acesso à página de itens sem login</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='37' id='37'>Preencher dados para verificação de identidade na compra</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:37:53 PM</td>
+<td>
+<a href="#" class="linked" test-id='43' id='43'>Verificar o preenchimento do campo 'Último Nome'</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:38:12 PM</td>
+<td>
+<a href="#" class="linked" test-id='47' id='47'>Verificar preenchimento de todos os campos e continuar para visão geral</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:38:28 PM</td>
+<td>
+<a href="#" class="linked" test-id='49' id='49'>Verificar o preenchimento do campo 'Primeiro Nome'</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:38:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='52' id='52'>Validar a quantidade de caracteres no campo 'Primeiro Nome'</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:39:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='54' id='54'>Verificar redirecionamento com todos os campos em branco</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>nov. 23, 2024 12:36:24 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>nov. 23, 2024 12:39:15 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>24</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>9</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='72%'>
+<b>24</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='27%'><b>9</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='69%'><b>76</b> events passed</small></div>
+<div>
+<small data-tooltip='10%'><b>11</b> events failed,
+<b data-tooltip='%'>23</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Validação dos Dados da Compra":4.147,"Atualizar quantidade de itens no carrinho":7.949,"Filtrar produtos por preço mais baixo":0,"Validar a quantidade de caracteres no campo 'Último Nome'":5.491,"Atualizar quantidade de item no carrinho a partir da tela de produtos":3.935,"Adicionar item ao carrinho a partir da tela de produtos":3.306,"Validar limite de caracteres em CEP":8.925,"Filtrar produtos por preço mais alto":0,"Filtrar produtos por nome A-Z":0,"Verificar funcionalidade de recuperação de senha":2.429,"Exibir lista de produtos após o login":3.476,"Validação dos Dados da Compra":0.001,"Testar login com credenciais inválidas":2.867,"Verificar acesso à página de itens sem login":2.94,"Preencher dados para verificação de identidade na compra":3.61,"Impedir prosseguimento para checkout com carrinho vazio":2.833,"Filtrar produtos por nome Z-A":0,"Testar login com usuário bloqueado":2.871,"Verificar redirecionamento para página de detalhes ao clicar em um produto":3.366,"Verificar se os produtos possuem descrição":2.914,"Verificar o preenchimento do campo 'Último Nome'":3.522,"Remover produto do carrinho na tela do carrinho":0,"Verificar não preenchimento do campo CEP":3.573,"Adicionar produto no carrinho pela tela de detalhes":0,"Verificar preenchimento de todos os campos e continuar para visão geral":4.571,"Verificar a Tipagem de caracteres no campo CEP":10.508,"Verificar o preenchimento do campo 'Primeiro Nome'":4.132,"Remover item do carrinho a partir da tela de produtos":3.374,"Adicionar produto diretamente da tela do carrinho":3.586,"Validar a quantidade de caracteres no campo 'Primeiro Nome'":5.003,"Verificar mensagem de erro ao adicionar produto não disponível":19.888,"Verificar redirecionamento com todos os campos em branco":4.073,"Testar login com credenciais válidas":2.944
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>Italo</td>
+<td>15</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+<td>68,182%</td>
+</tr>
+<tr>
+<td>Bernardo</td>
+<td>8</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>80%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>CarrinhoDeCompras</td>
+<td>3</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>60%</td>
+</tr>
+<tr>
+<td>Checkout</td>
+<td>6</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>60%</td>
+</tr>
+<tr>
+<td>Produtos</td>
+<td>7</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>77,778%</td>
+</tr>
+<tr>
+<td>Ordenação</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>Login</td>
+<td>4</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>80%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 24,
+failParent: 9,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 76,
+failEvents: 11,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 23
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
